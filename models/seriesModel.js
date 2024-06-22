@@ -18,6 +18,18 @@ const seriesSchema = mongoose.Schema(
             type: String,
             required: true,
         },
+        category: {
+            type: String,
+            required: true,
+        },
+        subCategory: {
+            type: String,
+            required: true,
+        },
+        thumbnail : {
+            type: String,
+            required: true,
+        }
     },
     {
         timestamps: true,
